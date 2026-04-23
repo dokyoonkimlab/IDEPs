@@ -1,0 +1,11 @@
+eid,label,followup_days,phenotype,endpoint
+0,0,2847,T2D,prs_T2D
+1,1,1523,T2D,prs_T2D
+2,0,2634,T2D,prs_T2D
+3,0,2198,T2D,prs_T2D
+4,1,987,T2D,prs_T2D
+5,0,2756,T2D,prs_T2D
+6,0,2401,T2D,prs_T2D
+7,1,1345,T2D,prs_T2D
+8,0,2589,T2D,prs_T2D
+9,0,2912,T2D,prs_T2D

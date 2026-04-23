@@ -1,0 +1,18 @@
+# this corresponds to the default config
+dino:
+  head_n_prototypes: 131072
+  head_bottleneck_dim: 384
+ibot:
+  separate_head: true
+  head_n_prototypes: 131072
+train:
+  batch_size_per_gpu: 32
+  dataset_path: UKBBEV:split=TRAIN
+  centering: sinkhorn_knopp
+student:
+  arch: vit_large
+  patch_size: 14
+  block_chunks: 4
+crops:
+  global_crops_size: 224
+  local_crops_size: 98

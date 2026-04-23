@@ -1,0 +1,17 @@
+torch>=2.0.0
+torchvision>=0.15.0
+numpy
+pandas
+scikit-learn
+scipy
+lifelines
+pyproj
+requests
+Pillow
+tqdm
+omegaconf
+fvcore
+iopath
+xformers
+submitit
+wandb
