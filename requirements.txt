@@ -1,14 +1,16 @@
-torch>=2.0.0
-torchvision>=0.15.0
-numpy
-pandas
-scikit-learn
-scipy
-lifelines
-pyproj
-requests
-Pillow
-tqdm
+# Versions of the analysis environment (Python 3.10.19)
+torch==2.5.1
+torchvision==0.20.1
+numpy==2.2.5
+pandas==2.3.3
+scikit-learn==1.7.2
+scipy==1.15.3
+lifelines==0.30.0
+pyproj==3.7.1
+requests==2.32.5
+Pillow==9.4.0
+tqdm==4.67.1
+# DINOv2 training only; not installed in the analysis environment (see source/dinov2/conda.yaml)
 omegaconf
 fvcore
 iopath
